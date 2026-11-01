@@ -10,12 +10,10 @@ function setupAuthUI() {
       signOutBtn.textContent = "Signing out...";
 
       try {
-        sessionStorage.removeItem("tolleraAuth");
         await signOut(auth);
       } catch (error) {
-        console.warn("Sign out note:", error);
+        console.warn("Sign out error:", error);
       } finally {
-        sessionStorage.removeItem("tolleraAuth");
         window.location.replace("login.html");
       }
     });
