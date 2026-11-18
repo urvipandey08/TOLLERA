@@ -2,11 +2,19 @@
 
 ### RFID-Based Automated Toll Collection System
 
-\<p align="center">   \<strong>SMARTER TOLLING. SEAMLESS MOVEMENT.\</strong> \</p>
+\<p align="center">
+&#x20; \<strong>SMARTER TOLLING. SEAMLESS MOVEMENT.\</strong>
+\</p>
 
-\<p align="center">   An integrated hardware and software solution designed to automate vehicle identification, toll deduction, and transaction management using RFID technology. \</p>
+\<p align="center">
+&#x20; An integrated hardware and software solution designed to automate vehicle identification, toll deduction, and transaction management using RFID technology.
+\</p>
 
-\<p align="center">   \<a href="[https://urvipandey08.github.io/TOLLERA/](https://urvipandey08.github.io/TOLLERA/)">🌐 Live Website\</a> •   \<a href="#system-workflow">System Workflow\</a> •   \<a href="#technology-stack">Technology Stack\</a> \</p>
+\<p align="center">
+&#x20; \<a href="[https://urvipandey08.github.io/TOLLERA/](https://urvipandey08.github.io/TOLLERA/)">🌐 Live Website\</a> •
+&#x20; \<a href="#system-workflow">System Workflow\</a> •
+&#x20; \<a href="#technology-stack">Technology Stack\</a>
+\</p>
 
 ---
 
@@ -49,6 +57,7 @@ The TOLLÉRA web application provides a centralized interface for monitoring and
 | Theme Customization | Switch between dark and light interface themes                                          |
 
 **Explore the application:**
+
 [https://urvipandey08.github.io/TOLLERA/](https://urvipandey08.github.io/TOLLERA/)
 
 ## 03. System Architecture
@@ -181,6 +190,7 @@ Its major sections include:
 ## 10. Project Demonstration
 
 **Live Web Application:**
+
 [https://urvipandey08.github.io/TOLLERA/](https://urvipandey08.github.io/TOLLERA/)
 
 The deployed application demonstrates the software interface and its operational management modules.
@@ -233,11 +243,6 @@ By combining physical vehicle identification with digital transaction management
 
 ---
 
-\<p align="center">
-&#x20; \<strong>TOLLÉRA\</strong>\<br>
-&#x20; SMARTER TOLLING. SEAMLESS MOVEMENT.
-\</p>
+\<p align="center">   \<strong>TOLLÉRA\</strong>\<br>   SMARTER TOLLING. SEAMLESS MOVEMENT. \</p>
 
-\<p align="center">
-&#x20; Developed as an academic engineering project.
-\</p>
+\<p align="center">   Developed as an academic engineering project. \</p>
