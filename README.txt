@@ -2,19 +2,11 @@
 
 ### RFID-Based Automated Toll Collection System
 
-\<p align="center">
-&#x20; \<strong>SMARTER TOLLING. SEAMLESS MOVEMENT.\</strong>
-\</p>
+\<p align="center">   \<strong>SMARTER TOLLING. SEAMLESS MOVEMENT.\</strong> \</p>
 
-\<p align="center">
-&#x20; An integrated hardware and software solution designed to automate vehicle identification, toll deduction, and transaction management using RFID technology.
-\</p>
+\<p align="center">   An integrated hardware and software solution designed to automate vehicle identification, toll deduction, and transaction management using RFID technology. \</p>
 
-\<p align="center">
-&#x20; \<a href="[https://urvipandey08.github.io/TOLLERA/](https://urvipandey08.github.io/TOLLERA/)">🌐 Live Website\</a> •
-&#x20; \<a href="#system-workflow">System Workflow\</a> •
-&#x20; \<a href="#technology-stack">Technology Stack\</a>
-\</p>
+\<p align="center">   \<a href="[https://urvipandey08.github.io/TOLLERA/](https://urvipandey08.github.io/TOLLERA/)">🌐 Live Website\</a> •   \<a href="#system-workflow">System Workflow\</a> •   \<a href="#software--technologies">Technology Stack\</a> \</p>
 
 ---
 
@@ -41,20 +33,18 @@ TOLLÉRA aims to reduce manual intervention, improve transaction transparency, a
 
 ### Software Features
 
-The TOLLÉRA web application provides a centralized interface for monitoring and managing toll collection operations.
-
-| Module              | Functionality                                                                           |
-| ------------------- | --------------------------------------------------------------------------------------- |
-| Authentication      | Secure login and access to the management interface                                     |
-| Live Operations     | Overview of toll revenue, successful crossings, registered vehicles, and rejected scans |
-| Vehicle Management  | View registered vehicles and their associated information                               |
-| Vehicle Profiles    | Access individual vehicle details, toll pass count, and deducted amount                 |
-| Transaction History | View recorded transactions with vehicle, RFID, toll, status, and balance information    |
-| Analytics           | Visual insights into toll collection activity                                           |
-| Toll Rates          | Dedicated interface for toll rate management                                            |
-| Search & Filters    | Find transactions using vehicle registration or RFID ID and filter by status            |
-| CSV Export          | Export transaction records for external analysis                                        |
-| Theme Customization | Switch between dark and light interface themes                                          |
+| Module              | Functionality                                                              |
+| ------------------- | -------------------------------------------------------------------------- |
+| Authentication      | Login-based access to the management interface                             |
+| Live Operations     | Toll revenue, successful crossings, registered vehicles and rejected scans |
+| Vehicle Management  | View registered vehicles and their information                             |
+| Vehicle Profiles    | Individual vehicle details, toll pass count and deducted amount            |
+| Transaction History | Transaction records with vehicle, RFID, toll, status and balance           |
+| Analytics           | Visual insights into toll collection activity                              |
+| Toll Rates          | Dedicated toll rate management interface                                   |
+| Search & Filters    | Search by vehicle registration or RFID ID and filter by status             |
+| CSV Export          | Export transaction records                                                 |
+| Theme Customization | Dark and light interface themes                                            |
 
 **Explore the application:**
 
@@ -66,13 +56,13 @@ TOLLÉRA consists of two interconnected components:
 
 **A. Hardware Layer**
 
-Responsible for RFID scanning, vehicle identification input, physical feedback, and barrier control.
+Responsible for RFID scanning, vehicle identification, physical feedback and barrier control.
 
 **B. Software Layer**
 
-Responsible for authentication, vehicle records, toll transaction management, balance tracking, analytics, and operational monitoring.
+Responsible for authentication, vehicle records, toll transaction management, balance tracking, analytics and operational monitoring.
 
-The hardware and software components work together to provide an integrated toll collection workflow.
+The two components work together to provide an integrated toll collection workflow.
 
 ## 04. System Workflow
 
@@ -114,14 +104,14 @@ flowchart TD
 | --------------------- | ------------------------------------------------- |
 | Arduino Uno           | Main microcontroller for hardware operations      |
 | RFID Reader (MFRC522) | Reads RFID card and tag information               |
-| RFID Cards / Tags     | Provide unique identification for vehicles        |
+| RFID Cards / Tags     | Unique identification for vehicles                |
 | 16×2 LCD with I2C     | Displays system messages and transaction feedback |
 | Servo Motor           | Controls the toll barrier mechanism               |
-| LED                   | Provides visual status indication                 |
-| Buzzer                | Provides audible alerts                           |
-| Breadboard            | Supports circuit connections                      |
-| Jumper Wires          | Establish electrical connections                  |
-| USB Cable             | Provides programming and power connectivity       |
+| LED                   | Visual status indication                          |
+| Buzzer                | Audible alerts                                    |
+| Breadboard            | Circuit connections                               |
+| Jumper Wires          | Electrical connections                            |
+| USB Cable             | Programming and power connectivity                |
 
 ## 06. Software & Technologies
 
@@ -138,11 +128,9 @@ flowchart TD
 
 ## 07. Web Application
 
-The TOLLÉRA web platform is designed as an operational management interface rather than a basic static website.
+The TOLLÉRA web platform provides a centralized operational management interface.
 
-Its major sections include:
-
-**Live Operations**
+### Live Operations
 
 - Toll collection overview.
 - Revenue and crossing statistics.
@@ -150,22 +138,22 @@ Its major sections include:
 - Transaction search and filtering.
 - CSV export.
 
-**Vehicle Management**
+### Vehicle Management
 
 - Registered vehicle information.
 - Individual vehicle profiles.
 - Toll pass counts and deduction history.
 
-**Analytics**
+### Analytics
 
 - Visual representation of collection activity.
 - Transaction and operational insights.
 
-**Toll Rates**
+### Toll Rates
 
 - Dedicated interface for managing applicable toll rates.
 
-**Authentication**
+### Authentication
 
 - Login-based access to the management platform.
 
@@ -181,7 +169,7 @@ Its major sections include:
 ## 09. Future Scope
 
 - Integration with UPI and other digital payment methods.
-- Automatic number plate recognition (ANPR).
+- Automatic Number Plate Recognition (ANPR).
 - Cloud-based multi-lane toll management.
 - Advanced traffic monitoring and reporting.
 - Mobile application for vehicle owners.
@@ -191,11 +179,11 @@ Its major sections include:
 
 **Live Web Application:**
 
-[https://urvipandey08.github.io/TOLLERA/](https://urvipandey08.github.io/TOLLERA/)
+[Open TOLLÉRA](https://urvipandey08.github.io/TOLLERA/)
 
 The deployed application demonstrates the software interface and its operational management modules.
 
-Hardware demonstrations can be included here to showcase the physical RFID scanning, vehicle verification, and automated barrier mechanism.
+Hardware demonstrations can be included here to showcase physical RFID scanning, vehicle verification and the automated barrier mechanism.
 
 ## 11. Repository Structure
 
@@ -233,16 +221,21 @@ TOLLERA/
 └── README.md
 ```
 
-*Note: The hardware, documentation, and screenshots folders are intended for organising the corresponding project files.*
+*Note: The hardware, documentation and screenshots folders are intended for organising the corresponding project files.*
 
 ## 12. Conclusion
 
-TOLLÉRA demonstrates the practical integration of embedded systems, RFID technology, and cloud-based web development to create an automated toll collection solution.
+TOLLÉRA demonstrates the practical integration of embedded systems, RFID technology and cloud-based web development to create an automated toll collection solution.
 
 By combining physical vehicle identification with digital transaction management, the project presents a scalable foundation for smarter and more efficient toll operations.
 
 ---
 
-\<p align="center">   \<strong>TOLLÉRA\</strong>\<br>   SMARTER TOLLING. SEAMLESS MOVEMENT. \</p>
+\<p align="center">
+&#x20; \<strong>TOLLÉRA\</strong>\<br>
+&#x20; SMARTER TOLLING. SEAMLESS MOVEMENT.
+\</p>
 
-\<p align="center">   Developed as an academic engineering project. \</p>
+\<p align="center">
+&#x20; Developed as an academic engineering project.
+\</p>
