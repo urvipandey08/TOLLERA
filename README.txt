@@ -1,119 +1,102 @@
 # TOLLÉRA
-
 ### RFID-Based Automated Toll Collection System
 
-\<p align="center"> \<strong>SMARTER TOLLING. SEAMLESS MOVEMENT.\</strong> \</p>
+**SMARTER TOLLING. SEAMLESS MOVEMENT.**
 
-\<p align="center"> An integrated Arduino, RFID and Firebase-based toll collection solution. \</p>
+An Arduino, RFID and Firebase-powered solution for automated vehicle identification and toll management.
 
-\<p align="center"> \<a href="[https://urvipandey08.github.io/TOLLERA/](https://urvipandey08.github.io/TOLLERA/)">🌐 Live Website\</a> • \<a href="[https://github.com/urvipandey08/TOLLERA](https://github.com/urvipandey08/TOLLERA)">GitHub Repository\</a> \</p>
+[🌐 Live Website](https://urvipandey08.github.io/TOLLERA/) | [💻 GitHub Repository](https://github.com/urvipandey08/TOLLERA)
 
 ---
 
-## 01. Project Overview
+## 01. Overview
 
-**TOLLÉRA** automates vehicle identification and toll collection using RFID technology. It combines an Arduino-based hardware system with a Firebase-powered web application for vehicle and transaction management.
+TOLLÉRA automates toll collection through RFID-based vehicle identification, toll processing and digital transaction management.
 
 ## 02. System Architecture
 
 ```mermaid
 flowchart TD
-    A[RFID Card / Tag] --> B[MFRC522 Reader]
+    A[RFID Card / Tag] --> B[RFID Reader]
     B --> C[Arduino Uno]
     C --> D[Toll Processing]
     D --> E[Servo Barrier]
     D --> F[LCD / LED / Buzzer]
     D --> G[Firebase]
-    G --> H[Web Application]
+    G --> H[Web Dashboard]
 ```
 
-## 03. Toll Collection Workflow
+## 03. Toll Collection Process
 
 ```mermaid
 flowchart TD
     A([Vehicle Arrives]) --> B[Scan RFID]
-    B --> C[Process RFID UID]
-    C --> D{Registered?}
-    D -->|No| E[Access Denied]
-    D -->|Yes| F{Sufficient Balance?}
-    F -->|No| E
-    F -->|Yes| G[Calculate and Deduct Toll]
-    G --> H[Update Vehicle Records]
-    H --> I[Record Transaction]
-    I --> J[Open Barrier]
-    J --> K([Vehicle Passes])
-    E --> L[Alert: LED / Buzzer]
+    B --> C{Registered?}
+    C -->|No| D[Access Denied]
+    C -->|Yes| E{Balance Available?}
+    E -->|No| D
+    E -->|Yes| F[Deduct Toll]
+    F --> G[Update Records]
+    G --> H[Open Barrier]
+    H --> I([Vehicle Passes])
 ```
 
-## 04. Web Application Workflow
+## 04. Web Application
 
 ```mermaid
 flowchart TD
     A[Login] --> B[Dashboard]
     B --> C[Live Operations]
-    B --> D[Vehicle Management]
+    B --> D[Vehicle Profiles]
     B --> E[Transaction History]
     B --> F[Analytics]
     B --> G[Toll Rates]
-    D --> H[Individual Vehicle Profiles]
 ```
 
 ## 05. Key Features
 
-- RFID-based vehicle identification
-- Automated toll deduction and balance tracking
+- RFID vehicle identification
+- Automated toll deduction
 - Servo-controlled barrier
-- LCD display, LED and buzzer alerts
-- Vehicle profiles and transaction history
-- Live dashboard and analytics
+- LCD and alert indicators
+- Vehicle and transaction management
+- Dashboard and analytics
 - Search, filters and CSV export
-- Login authentication
 - Dark and light themes
 
-## 06. Hardware Components
+## 06. Hardware
 
-| Component          | Purpose                |
-| ------------------ | ---------------------- |
-| Arduino Uno        | Main controller        |
-| MFRC522            | RFID scanning          |
-| RFID Cards / Tags  | Vehicle identification |
-| 16×2 LCD with I2C  | Status display         |
-| Servo Motor        | Barrier control        |
-| LED & Buzzer       | Alerts                 |
-| Breadboard & Wires | Circuit connections    |
+| Component | Purpose |
+|---|---|
+| Arduino Uno | Main controller |
+| MFRC522 | RFID reader |
+| RFID Cards / Tags | Vehicle identification |
+| 16×2 LCD | Status display |
+| Servo Motor | Barrier control |
+| LED & Buzzer | Alerts |
 
 ## 07. Technology Stack
 
-| Technology              | Purpose              |
-| ----------------------- | -------------------- |
-| HTML, CSS, JavaScript   | Web application      |
-| Firebase Authentication | Login                |
-| Cloud Firestore         | Data management      |
-| Arduino IDE             | Hardware programming |
-| Git & GitHub            | Version control      |
-| GitHub Pages            | Deployment           |
+| Technology | Purpose |
+|---|---|
+| HTML, CSS, JavaScript | Web application |
+| Firebase Authentication | Login |
+| Cloud Firestore | Data management |
+| Arduino IDE | Hardware programming |
+| GitHub | Version control |
+| GitHub Pages | Deployment |
 
 ## 08. Future Scope
 
-- UPI and digital payment integration
+- UPI payment integration
 - Automatic Number Plate Recognition
 - Multi-lane toll management
 - Mobile application
 - Advanced traffic analytics
 
-## 09. Project Links
-
-🌐 **Live Website:** [TOLLÉRA](https://urvipandey08.github.io/TOLLERA/)
-
-💻 **Source Code:** [GitHub Repository](https://github.com/urvipandey08/TOLLERA)
-
 ---
 
-\<p align="center">
-\<strong>TOLLÉRA\</strong>\<br>
-SMARTER TOLLING. SEAMLESS MOVEMENT.
-\</p>
+### TOLLÉRA
+**SMARTER TOLLING. SEAMLESS MOVEMENT.**
 
-\<p align="center">
-Developed as an academic engineering project.
-\</p>
+*An academic engineering project.*
